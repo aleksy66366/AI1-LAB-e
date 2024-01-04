@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+  
+  html {
+    font-family: "Times New Roman", serif;
+  }
+  
+  header {
+    background-color: #222;
+    color: #c30827;
+    padding-top: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 2px;
+    padding-left: 1%;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #333;
+    color: #c30827;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+  
+  .menu li:hover {
+    background-color: #444;
+  }
+  
+  aside {
+    padding: 5px;
+    text-align: center;
+  }
+  
+  img {
+    max-width: 90%;
+    height: auto;
+    border: 5px solid #432f00; 
+  }
+  
+  footer {
+    background-color: #222;
+    color: #c30827;;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+    padding: 15px;
+  }
+  
+  a {
+    color: #c30827;;
+  }
+  a:hover {
+    color: greenyellow;
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #c30827;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #c33827;
+  }
+  
+  h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #c3A8B7;
+  }
+  .article{
+    background-image: url('./nnja.png');
+    background-repeat: no-repeat;
+    background-size: 60% 60%;
+    opacity: 0.75;
+    background-position-x: 85%;
+    background-position-y:98% ;
+  }
+  
+  
+  p {
+    font-family: 'Times New Roman', serif;
+    color: #432f00;
+    font-size: 18px;
+    line-height: 1.5;
+    opacity: 1;
+  }
+  
+  ul {
+    list-style-type: square;
+    margin: 0;
+    padding-left: 30%;
+    font-weight: bolder;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    color: #ffcde7;
+    color: #432f00;
+  }
+  
+  [class*="col-"] {
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 550px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  
+  @media only screen and (min-width: 1675px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+  button {
+    width: 100%;
+    /* Opcjonalnie możesz dodać inne właściwości, aby dostosować wygląd przycisków */
+    padding: 10px; /* Dla lepszego wyglądu i uczucia */
+    margin: 5px 0; /* Dla odstępu między przyciskami */
+    border: none; /* Usuwa domyślną ramkę przycisku */
+    cursor: pointer; /* Zmienia kursor na wskaźnik, gdy najedziesz myszką */
+}
